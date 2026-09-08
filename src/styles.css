@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'HelBold';
+    src: url('./assets/fonts/HelveticaNeue-Bold.otf');
+}
+@font-face {
+    font-family: 'HelMed';
+    src: url('./assets/fonts/HelveticaNeue-Medium.otf');
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
