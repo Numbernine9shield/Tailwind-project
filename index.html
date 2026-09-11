@@ -67,17 +67,22 @@
     <div class="
     px-4
     sm:grid
-    sm:gap-x-3
+    gap-x-3
     sm: grid-rows-[auto_1fr]
     grid-cols-2
     [grid-template-areas:'photo_headline'_'photo_size']
+    laptop:gap-x-6
+    laptop:grid-cols-[2fr_1fr]
+    laptop:[grid-template-areas:'photo_headline'_'photo_size']
+    max-w-[1280px]
+    mx-auto
     ">
         <div class="pt-[40px] pb-[12px] [grid-area:headline]">
             <h2 class="font-[HelBold] text-xl pb-1 leading-none">Nike Air Force 1 ‘07</h2>
             <p class="text-[#737373] leading-none text-xs font-[HelMed]">Women’s Shoe</p>
             <p class="leading-none text-xs font-[HelMed] pt-3">$115</p>
         </div>
-        <div class="grid gap-3 [grid-area:photo] sm:pt-10 sm:pb-12">
+        <div class="grid gap-3 [grid-area:photo] sm:pt-10 sm:pb-12 laptop:max-w-[804px] laptop:grid-cols-2">
             <figure
                     class="
                     w-full
@@ -116,11 +121,11 @@
                     <img class="w-full" src="./src/assets/images/SmallBlackShoes.png" alt="photo shoes">
                 </a>
             </div>
-            <div class="flex flex-row justify-between pt-6 pb-2">
+            <div class="flex flex-row justify-between pt-6 pb-2 laptop:w-[384px]">
                 <a class="font-[HelBold] text-xs ">Select Size</a>
                 <a class="font-[HelMed] text-xs text-[#737373] items-center">Size Guide</a>
             </div>
-            <div class="grid grid-cols-3 gap-2 pb-6">
+            <div class="grid grid-cols-3 gap-2 pb-6 laptop:w-[384px]">
                 <button class="py-[10px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
                     33
                 </button>
@@ -167,7 +172,7 @@
                     40
                 </button>
             </div>
-            <div class="flex flex-col gap-2 pb-6">
+            <div class="flex flex-col gap-2 pb-6 laptop:w-[384px]">
                 <button class="w-full rounded-full bg-black font-[HelMed] text-white text-xs py-4 leading-none">Add to Bag</button>
                 <button class="flex items-center justify-center
                   gap-1 w-full leading-none font-[HelMed] text-xs text-black rounded-full py-[13px] border border-[#d4d4d4]">Favourite
@@ -177,10 +182,10 @@
                     </svg>
                 </button>
             </div>
-            <p class="font-[HelBold] leading-none text-xs pb-2">Shipping</p>
-            <p class="font-[HelMed] leading-none text-xs pb-7">You'll see our shipping options at checkout.</p>
-            <p class="font-[HelMed] leading-none text-xs pb-6">The radiance lives on in the Nike Air Force 1 ’07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.</p>
-            <ul class="list-disc list-inside pl-3 marker:text-[20px] pb-5">
+            <p class="font-[HelBold] leading-none text-xs pb-2 laptop:w-[384px]">Shipping</p>
+            <p class="font-[HelMed] leading-none text-xs pb-7 laptop:w-[384px]">You'll see our shipping options at checkout.</p>
+            <p class="font-[HelMed] leading-none text-xs pb-6 laptop:w-[384px]">The radiance lives on in the Nike Air Force 1 ’07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.</p>
+            <ul class="list-disc list-inside pl-3 marker:text-[20px] pb-5 laptop:w-[384px]">
                 <li class="flex gap-2">
                     <span class="text-xl text-black leading-0">•</span>
                     <span class="font-[HelMed] leading-0 text-xs pt-[3px]">Shown: White/White/White/White</span>
@@ -190,7 +195,7 @@
                     <span class="font-[HelMed] leading-0 text-xs pt-[3px]">Style: DD8959-100</span>
                 </li>
             </ul>
-            <div class="pb-12">
+            <div class="pb-12 laptop:w-[384px]">
                 <a href="#" class="font-[HelMed] text-xs leading-0 underline ">View Product Details</a>
             </div>
         </div>

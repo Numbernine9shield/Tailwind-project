@@ -16,4 +16,5 @@ input[type="search"]::-webkit-search-cancel-button {
 
 @theme {
     --breakpoint-xs: 400px;
+    --breakpoint-laptop: 1100px;
 }
