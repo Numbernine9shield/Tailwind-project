@@ -16,8 +16,8 @@
                       fill="black"/>
             </svg>
         </a>
-        <nav class="hidden">
-            <ul>
+        <nav class="hidden sm:block">
+            <ul class="flex gap-6 items-center flex-row text-xs font-[HelMed]">
                 <li><a href="#">Men</a></li>
                 <li><a href="#">Women</a></li>
                 <li><a href="#">Kids</a></li>
@@ -25,7 +25,7 @@
                 <li><a href="#">Sale</a></li>
             </ul>
         </nav>
-        <div class="flex flex-row gap-2 items-center">
+        <div class="flex flex-row gap-2 items-center xs:gap-4">
             <label class="rounded-4xl relative bg-[#f7f7f7]">
                 <input type="search"
                        class="w-[136px] outline-none py-1 pl-8 placeholder:text-[#d4d4d4] text-xs font-[HelMed]"
@@ -54,7 +54,7 @@
                           stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </button>
-            <button>
+            <button class="sm:hidden">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8.3337 12.6686L8.199 12.6823C7.8962 12.7445 7.6687 13.0125 7.6687 13.3337C7.6689 13.6547 7.8962 13.9229 8.199 13.985L8.3337 13.9987H16.6667C17.0339 13.9987 17.3316 13.7008 17.3318 13.3337C17.3318 12.9664 17.034 12.6686 16.6667 12.6686H8.3337ZM3.3337 6.00163L3.199 6.0153C2.8962 6.07747 2.6687 6.34546 2.6687 6.66667C2.6687 6.98788 2.8962 7.25586 3.199 7.31803L3.3337 7.33171H16.6667C17.034 7.33171 17.3318 7.03394 17.3318 6.66667C17.3318 6.2994 17.034 6.00163 16.6667 6.00163H3.3337Z"
                           fill="black"/>
@@ -64,13 +64,20 @@
     </div>
 </header>
 <main>
-    <div class="px-4">
-        <div class="pt-[40px] pb-[12px]">
+    <div class="
+    px-4
+    sm:grid
+    sm:gap-x-3
+    sm: grid-rows-[auto_1fr]
+    grid-cols-2
+    [grid-template-areas:'photo_headline'_'photo_size']
+    ">
+        <div class="pt-[40px] pb-[12px] [grid-area:headline]">
             <h2 class="font-[HelBold] text-xl pb-1 leading-none">Nike Air Force 1 ‘07</h2>
             <p class="text-[#737373] leading-none text-xs font-[HelMed]">Women’s Shoe</p>
             <p class="leading-none text-xs font-[HelMed] pt-3">$115</p>
         </div>
-        <div class="grid gap-3">
+        <div class="grid gap-3 [grid-area:photo] sm:pt-10 sm:pb-12">
             <figure
                     class="
                     w-full
@@ -100,7 +107,7 @@
                 <img src="src/assets/images/back-shoes.png" alt="Photo shoes" class="w-full">
             </figure>
         </div>
-        <div class="pt-3" id="shoes">
+        <div class="pt-3 [grid-area:size]" id="shoes">
             <div class="flex gap-2 flex-row">
                 <a href="#shoes" class="w-[52px] rounded-sm box-border border border-black">
                     <img class="w-full" src="./src/assets/images/SmallWhiteShoes.png" alt="photo shoes">
