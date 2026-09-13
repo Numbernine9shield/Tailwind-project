@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+  <script type="module" crossorigin src="/assets/index-NmoTbY-x.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-72bylwfX.css">
+</head>
+<body>
+
+<header class="box-border border-b border-[#d4d4d4]">
+    <div class="p-4 flex flex-row justify-between items-center">
+        <a href="">
+            <svg width="60" height="21" viewBox="0 0 60 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M59.6215 0L16.0032 18.5743C12.3858 20.1048 9.34802 20.87 6.89 20.87C4.10733 20.87 2.0899 19.8961 0.837699 17.9482C0.0492763 16.696 -0.182612 15.1076 0.142032 13.1829C0.466676 11.2582 1.32467 9.20599 2.716 7.02623C3.87544 5.26388 5.77693 2.94499 8.42047 0.0695666C7.49291 1.55366 6.84362 3.08412 6.4726 4.66097C5.77693 7.62914 6.40303 9.8089 8.3509 11.2002C9.27845 11.8495 10.5538 12.1742 12.1771 12.1742C13.4756 12.1742 14.9365 11.9655 16.5598 11.5481L59.6215 0Z"
+                      fill="black"/>
+            </svg>
+        </a>
+        <nav class="hidden sm:block">
+            <ul class="flex gap-6 items-center flex-row text-xs font-[HelMed]">
+                <li><a href="#" class="hover:underline active:underline">Men</a></li>
+                <li><a href="#" class="hover:underline active:underline">Women</a></li>
+                <li><a href="#" class="hover:underline active:underline">Kids</a></li>
+                <li><a href="#" class="hover:underline active:underline">Jordan</a></li>
+                <li><a href="#" class="hover:underline active:underline">Sale</a></li>
+            </ul>
+        </nav>
+        <div class="flex flex-row gap-2 items-center xs:gap-4">
+            <label class="rounded-4xl relative bg-[#f7f7f7]">
+                <input type="search"
+                       class="w-[136px] outline-none py-1 pl-8 placeholder:text-[#d4d4d4] text-xs font-[HelMed]"
+                       placeholder="Search">
+                <svg class="absolute top-[4.5px] left-2.5" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.25 14.25C11.5637 14.25 14.25 11.5637 14.25 8.25C14.25 4.93629 11.5637 2.25 8.25 2.25C4.93629 2.25 2.25 4.93629 2.25 8.25C2.25 11.5637 4.93629 14.25 8.25 14.25Z"
+                          stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.75 15.75L12.4875 12.4875" stroke="black" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+            </label>
+            <button>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.6301 3.4575C15.247 3.07425 14.7922 2.77023 14.2916 2.56281C13.791 2.35539 13.2545 2.24863 12.7126 2.24863C12.1707 2.24863 11.6342 2.35539 11.1336 2.56281C10.633 2.77023 10.1782 3.07425 9.79509 3.4575L9.00009 4.2525L8.20509 3.4575C7.43132 2.68373 6.38186 2.24903 5.28759 2.24903C4.19331 2.24903 3.14386 2.68373 2.37009 3.4575C1.59632 4.23127 1.16162 5.28072 1.16162 6.375C1.16162 7.46927 1.59632 8.51873 2.37009 9.2925L3.16509 10.0875L9.00009 15.9225L14.8351 10.0875L15.6301 9.2925C16.0133 8.90943 16.3174 8.45461 16.5248 7.95402C16.7322 7.45342 16.839 6.91687 16.839 6.375C16.839 5.83313 16.7322 5.29658 16.5248 4.79598C16.3174 4.29539 16.0133 3.84057 15.6301 3.4575V3.4575Z"
+                          stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <button>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 1.5L2.25 4.5V15C2.25 15.3978 2.40804 15.7794 2.68934 16.0607C2.97064 16.342 3.35218 16.5 3.75 16.5H14.25C14.6478 16.5 15.0294 16.342 15.3107 16.0607C15.592 15.7794 15.75 15.3978 15.75 15V4.5L13.5 1.5H4.5Z"
+                          stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.25 4.5H15.75" stroke="black" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M12 7.5C12 8.29565 11.6839 9.05871 11.1213 9.62132C10.5587 10.1839 9.79565 10.5 9 10.5C8.20435 10.5 7.44129 10.1839 6.87868 9.62132C6.31607 9.05871 6 8.29565 6 7.5"
+                          stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <button id="menuOpen" class="sm:hidden">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.3337 12.6686L8.199 12.6823C7.8962 12.7445 7.6687 13.0125 7.6687 13.3337C7.6689 13.6547 7.8962 13.9229 8.199 13.985L8.3337 13.9987H16.6667C17.0339 13.9987 17.3316 13.7008 17.3318 13.3337C17.3318 12.9664 17.034 12.6686 16.6667 12.6686H8.3337ZM3.3337 6.00163L3.199 6.0153C2.8962 6.07747 2.6687 6.34546 2.6687 6.66667C2.6687 6.98788 2.8962 7.25586 3.199 7.31803L3.3337 7.33171H16.6667C17.034 7.33171 17.3318 7.03394 17.3318 6.66667C17.3318 6.2994 17.034 6.00163 16.6667 6.00163H3.3337Z"
+                          fill="black"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</header>
+<!-- Затемнение страницы -->
+<div
+        id="menuOverlay"
+        class="fixed inset-0 z-40 hidden bg-black/30 sm:hidden"
+></div>
+<aside
+        id="mobileMenu"
+        class="
+        fixed top-0 right-0 z-50
+        h-screen w-[48%]
+        bg-white
+        translate-x-full
+        transition-transform duration-300 ease-in-out
+        sm:hidden"
+>
+    <div class="flex justify-end p-4">
+        <button id="menuClose" class="text-2xl leading-none">
+            ×
+        </button>
+    </div>
+    <nav class="px-4">
+        <ul class="flex flex-col gap-6 text-xs font-[HelMed]">
+            <li><a href="#" class="hover:underline">Men</a></li>
+            <li><a href="#" class="hover:underline">Women</a></li>
+            <li><a href="#" class="hover:underline">Kids</a></li>
+            <li><a href="#" class="hover:underline">Jordan</a></li>
+            <li><a href="#" class="hover:underline">Sale</a></li>
+        </ul>
+    </nav>
+</aside>
+<main>
+    <div class="
+    px-4
+    sm:grid
+    gap-x-3
+    sm: grid-rows-[auto_1fr]
+    grid-cols-2
+    [grid-template-areas:'photo_headline'_'photo_size']
+    laptop:gap-x-6
+    laptop:grid-cols-[2fr_1fr]
+    laptop:[grid-template-areas:'photo_headline'_'photo_size']
+    max-w-[1280px]
+    mx-auto
+    ">
+        <div class="pt-[40px] pb-[12px] [grid-area:headline]">
+            <h2 class="font-[HelBold] text-xl pb-1 leading-none">Nike Air Force 1 ‘07</h2>
+            <p class="text-[#737373] leading-none text-xs font-[HelMed]">Women’s Shoe</p>
+            <p class="leading-none text-xs font-[HelMed] pt-3">$115</p>
+        </div>
+        <div class="grid gap-3 [grid-area:photo] sm:pt-10 sm:pb-12 laptop:max-w-[804px] laptop:grid-cols-2">
+            <figure
+                    class="
+                    w-full
+                    relative
+                    after:content-['★_Highly_Rated']
+                    after:absolute
+                    after:top-4
+                    after:left-4
+                    after:text-xs
+                    after:font-[HelMed]
+                    after:bg-[#ffffff]
+                    after:pt-[5.5px]
+                    after:pb-[4px]
+                    after:pl-[10px]
+                    after:pr-[12px]
+                    after:rounded-full
+            ">
+                <img src="/assets/front-shoes-Ba_wJnEu.png" alt="Photo shoes" class="w-full">
+            </figure>
+            <figure class="w-full">
+                <img src="/assets/left-shoes-DNllslw7.png" alt="Photo shoes" class="w-full">
+            </figure>
+            <figure class="w-full">
+                <img src="/assets/right-shoes-B4OglzVj.png" alt="Photo shoes" class="w-full">
+            </figure>
+            <figure class="w-full">
+                <img src="/assets/back-shoes-BEkXLkm8.png" alt="Photo shoes" class="w-full">
+            </figure>
+        </div>
+        <div class="pt-3 [grid-area:size]" id="shoes">
+            <div class="flex gap-2 flex-row">
+                <a href="#shoes" class="w-[52px] rounded-sm box-border border border-black">
+                    <img class="w-full" src="/assets/SmallWhiteShoes-CZ1I8Kes.png" alt="photo shoes">
+                </a>
+                <a href="#shoes" class="w-[52px] rounded-sm box-border">
+                    <img class="w-full" src="/assets/SmallBlackShoes-BRum-Auz.png" alt="photo shoes">
+                </a>
+            </div>
+            <div class="flex flex-row justify-between pt-6 pb-2 laptop:w-[384px]">
+                <a class="font-[HelBold] text-xs ">Select Size</a>
+                <a class="font-[HelMed] text-xs text-[#737373] items-center">Size Guide</a>
+            </div>
+            <div class="grid grid-cols-3 gap-2 pb-6 laptop:w-[384px]">
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    33
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 33.5
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 34
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 34.5
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    35
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    35.5
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    36
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 36.5
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    37
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 37.5
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    38
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 38.5
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    39
+                </button>
+                <button class="pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-[#C1C1C1] text-xs bg-[#F5F5F5] border border-[#c1c1c1]">
+                    EU 39.5
+                </button>
+                <button class="hover:border-[#000] pt-[11px] pb-[9px] leading-none font-[HelMed] rounded-[5px] text-xs border border-[#c1c1c1]">EU
+                    40
+                </button>
+            </div>
+            <div class="flex flex-col gap-2 pb-6 laptop:w-[384px]">
+                <button class="w-full rounded-full bg-black font-[HelMed] text-white text-xs py-4 leading-none">Add to Bag</button>
+                <button type="button" id="favourite" class="flex items-center justify-center
+                  gap-1 w-full leading-none font-[HelMed] text-xs text-black rounded-full py-[13px] border border-[#d4d4d4]">Favourite
+                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="favourite-heart" d="M15.2185 1.95887C14.8354 1.57562 14.3806 1.2716 13.88 1.06418C13.3794 0.85676 12.8428 0.75 12.301 0.75C11.7591 0.75 11.2225 0.85676 10.722 1.06418C10.2214 1.2716 9.76654 1.57562 9.38347 1.95887L8.58847 2.75387L7.79347 1.95887C7.0197 1.1851 5.97024 0.750401 4.87597 0.750401C3.78169 0.750401 2.73224 1.1851 1.95847 1.95887C1.1847 2.73264 0.75 3.78209 0.75 4.87637C0.75 5.97064 1.1847 7.0201 1.95847 7.79387L2.75347 8.58887L8.58847 14.4239L14.4235 8.58887L15.2185 7.79387C15.6017 7.4108 15.9057 6.95598 16.1132 6.45539C16.3206 5.95479 16.4273 5.41823 16.4273 4.87637C16.4273 4.3345 16.3206 3.79795 16.1132 3.29735C15.9057 2.79676 15.6017 2.34194 15.2185 1.95887V1.95887Z"
+                              stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <p class="font-[HelBold] leading-none text-xs pb-2 laptop:w-[384px]">Shipping</p>
+            <p class="font-[HelMed] leading-none text-xs pb-7 laptop:w-[384px]">You'll see our shipping options at checkout.</p>
+            <p class="font-[HelMed] leading-none text-xs pb-6 laptop:w-[384px]">The radiance lives on in the Nike Air Force 1 ’07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.</p>
+            <ul class="list-disc list-inside pl-3 marker:text-[20px] pb-5 laptop:w-[384px]">
+                <li class="flex gap-2">
+                    <span class="text-xl text-black leading-0">•</span>
+                    <span class="font-[HelMed] leading-0 text-xs pt-[3px]">Shown: White/White/White/White</span>
+                </li>
+                <li class="flex gap-2 pt-2.5">
+                    <span class="text-xl text-black leading-0">•</span>
+                    <span class="font-[HelMed] leading-0 text-xs pt-[3px]">Style: DD8959-100</span>
+                </li>
+            </ul>
+            <div class="pb-12 laptop:w-[384px]">
+                <a href="#" class="font-[HelMed] text-xs leading-0 underline ">View Product Details</a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="py-6 grid place-items-center">
+    <p class="font-[HelMed] text-xs leading-0 text-[#737373]">© 2025 Nike, Inc. All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
